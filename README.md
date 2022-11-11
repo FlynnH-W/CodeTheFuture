@@ -1,2 +1,2 @@
-# CodeTheFuture
+# Code-The-Future
 Webpage development
