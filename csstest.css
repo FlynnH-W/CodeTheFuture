@@ -1,0 +1,68 @@
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; color: white;
+}
+td {
+    text-align: center;
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: blue;text-align: center;
+}
+h2 {
+    text-align: center;
+}
+@keyframes bgcolor {
+    0% {
+        background-color: #45a3e5
+    }
+    100% {
+        background-color: #864cbf
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 10s infinite;
+    animation: bgcolor 5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+img {
+    border: 5px solid rgb(43, 24, 150);
+  }
+
+table {
+    margin:auto; border: 2.5px solid white;
+}
+label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:white
+}
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:blue
+}
+caption{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:blue; font-size: x-large;
+}
+header{
+    background-color: white; padding: 5px;border: 5px solid rgb(43, 24, 150);
+}
+footer{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 5%, rgba(6,75,164,1) 25%, rgba(6,84,170,1) 41%, rgba(5,103,182,1) 57%, rgba(3,137,205,1) 68%, rgba(2,153,215,1) 75%, rgba(1,175,230,1) 80%, rgba(1,181,234,1) 85%, rgba(1,187,238,1) 89%, rgba(1,196,244,1) 93%, rgba(1,199,246,1) 97%, rgba(0,212,255,1) 100%);
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  /* On mouse-over */
+  .btn:hover {background: rgb(116, 159, 223);}
+  
+  .success {color: rgb(255, 255, 255);font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-decoration: none;}
+  .info {color: rgb(255, 255, 255);font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-decoration: none;}
+  .warning {color: rgb(255, 255, 255);font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-decoration: none;}
+  .danger {color: rgb(255, 255, 255);font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-decoration: none;}
+  .default {color: rgb(255, 255, 255);font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-decoration: none;}
